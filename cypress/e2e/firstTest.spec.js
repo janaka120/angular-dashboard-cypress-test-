@@ -242,7 +242,7 @@ describe('cypress differnt ways to get', () => {
 
     });
 
-    it('datepicker', () => {
+    it.only('datepicker', () => {
         function selectDayFormCurrent(day) {
             let date = new Date();
             date.setDate(date.getDate() + day);
